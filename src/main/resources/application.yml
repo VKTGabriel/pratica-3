@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: pratica-3
+  datasource:
+    url: jdbc:postgresql://localhost:25432/pratica3
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update
